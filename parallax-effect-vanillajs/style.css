@@ -1,0 +1,57 @@
+:root {
+	--bg-color: #0a2a43;
+}
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: var(--bg-color);
+	min-height: 1300px;
+}
+section {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+section:before {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top, var(--bg-color), transparent);
+	z-index: 100;
+}
+section:after {
+	position: absolute;
+	content: '';
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: var(--bg-color);
+	z-index: 100;
+	mix-blend-mode: color;
+}
+section img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	pointer-events: none;
+}
+#text {
+	position: relative;
+	font-size: 10em;
+	z-index: 1;
+	color: #fff;
+}
+#road {
+	z-index: 2;
+}
