@@ -19,7 +19,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.idesettings.emmet.xml" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -38,7 +39,7 @@
       <workItem from="1597236238739" duration="1103000" />
       <workItem from="1597359562522" duration="1513000" />
       <workItem from="1597361508495" duration="7283000" />
-      <workItem from="1597459744824" duration="7339000" />
+      <workItem from="1597459744824" duration="15005000" />
     </task>
     <servers />
   </component>
@@ -46,10 +47,30 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="300" y="-890" key="SettingsEditor" timestamp="1597463883789">
+    <state x="455" y="-744" key="EditFileWatcherDialog" timestamp="1597533510154">
       <screen x="-169" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="300" y="-890" key="SettingsEditor/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1597463883789" />
+    <state x="455" y="-744" key="EditFileWatcherDialog/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1597533510154" />
+    <state x="300" y="-890" key="SettingsEditor" timestamp="1597503680249">
+      <screen x="-169" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="300" y="-890" key="SettingsEditor/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1597503680249" />
     <state x="352" y="162" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597377823564" />
+    <state x="456" y="-822" key="search.everywhere.popup" timestamp="1597540631423">
+      <screen x="-169" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="456" y="-822" key="search.everywhere.popup/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1597540631423" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/smooth-page-transition/js/transition.js</url>
+          <line>21</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
