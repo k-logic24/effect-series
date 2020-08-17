@@ -1,7 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="770602ab-e65f-41b6-93c4-abff1260fc3f" name="Default Changelist" comment="" />
+    <list default="true" id="770602ab-e65f-41b6-93c4-abff1260fc3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js-observer-pattern/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js-observer-pattern/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/assets/bell.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/assets/caret.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/assets/messanger.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/assets/plus.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/components/Dropdown.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/components/NavItem.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/components/Navbar.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/src/react-app-env.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/facebook-react/yarn.lock" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +37,13 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1fxDnORqfsnOLsJyB5mAodU9qtX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,7 +53,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/facebook-react/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
@@ -40,7 +73,9 @@
       <workItem from="1597236238739" duration="1103000" />
       <workItem from="1597359562522" duration="1513000" />
       <workItem from="1597361508495" duration="7283000" />
-      <workItem from="1597459744824" duration="24413000" />
+      <workItem from="1597459744824" duration="25290000" />
+      <workItem from="1597573655647" duration="1419000" />
+      <workItem from="1597666899947" duration="1684000" />
     </task>
     <servers />
   </component>
@@ -52,10 +87,10 @@
       <screen x="-169" y="-1057" width="1920" height="1057" />
     </state>
     <state x="455" y="-744" key="EditFileWatcherDialog/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1597533510154" />
-    <state x="300" y="-890" key="SettingsEditor" timestamp="1597570742915">
+    <state x="300" y="-890" key="SettingsEditor" timestamp="1597669467977">
       <screen x="-169" y="-1057" width="1920" height="1057" />
     </state>
-    <state x="300" y="-890" key="SettingsEditor/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1597570742915" />
+    <state x="300" y="-890" key="SettingsEditor/0.23.1440.877/-169.-1057.1920.1057@-169.-1057.1920.1057" timestamp="1597669467977" />
     <state x="352" y="162" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1597377823564" />
     <state x="456" y="-822" key="search.everywhere.popup" timestamp="1597540631423">
       <screen x="-169" y="-1057" width="1920" height="1057" />
@@ -68,7 +103,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/smooth-page-transition/js/transition.js</url>
           <line>21</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
