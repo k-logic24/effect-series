@@ -8,13 +8,13 @@ class Observer {
       this.observers[name] = []
     }
     this.observers[name].push(cb)
-   }
+  }
 
-   emit(name, ...args) {
+  emit(name, ...args) {
     if(name in this.observers) {
       this.observers[name].forEach(cb => cb(...args))
     }
-   }
+  }
 }
 
 const observer = new Observer()
